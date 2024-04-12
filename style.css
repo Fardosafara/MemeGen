@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(hsl(60, 100%, 50%)) 50%, rgba(hsl(60, 100%,50%)50%) 50%);
+    background-position: center;
+    background-size: cover;
+    height: 109vh; 
+    background-color: #ffff00;
+}
+
+
+.logo {
+    color: black;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: center;
+    margin-bottom: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.meme-generator {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    top: right;
+    color: yellow;
+}
+
+.meme-generator img {
+height: 430px;
+object-fit: cover;
+}
+
+.meme-generator .meme-generator-btn {
+        padding: 8px 20px;
+        border: none;
+        border-left: 4px solid #222;
+        margin: 24px 0;
+        font-size: 20px;
+        color: black;
+        background: yellow;
+        cursor: pointer;
+        color: black;
+}
+
+.meme-generator .meme-generator-btn:hover {
+padding: 8px;
+}
+
+
+body{
+    display: flex;
+    color: white;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+#img{
+    height: 480px;
+    width: 430px;
+}
+
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid yellow;
+    border-radius: 15px;
+    box-shadow: black;
+    margin-right: 50px;
+    margin-bottom: 13px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-size: 24px;
+    margin: 7px 11px;
+    border-radius: 25px;
+    background-image: black;
+    margin-left: 10px;
+}
+
+body{
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+}
+
+ul .li{
+    list-style-type: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.column {
+    float: left;
+    width: calc(100% / 3); 
+    padding: 20px; 
+}
+
+
+.column {
+    background-color: yellow; 
+    padding: 20px; 
+   width: 430px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(127, 223, 18, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transform: uppercase;
+}
+
+.column:hover {
+    background-color: black; 
+}
+
+.footer-info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+    flex-wrap: wrap; 
+}
+
+.footer-info .footer-width{
+    padding: 0 15px;
+    flex: 1; 
+    min-width: 250px; 
+}
+
+.footer-info h2{ 
+    margin-bottom: 20px;
+}
+
+.footer-info p{
+    margin-bottom: 20px;
+}
+
+.about, .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.contact{
+    width: 430px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+
+} 
+
+.social-media{
+    margin-top: 30px;
+}
+
+.social-media ul{
+    display: flex;
+}
+
+.social-media ul li{
+    display: inline-block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.social-media ul li:hover{
+    background-color: yellow;
+}
+
+.contact ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+    display: flex;
+}
+
+.contact ul li span{
+    margin-right: 13px;
+    display: flex;
+}
+
+i{
+    font-size: 20px;
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    .footer-info .footer-width {
+        flex: 100%; 
+        padding: 0 20px;
+    }
+    .social-media ul li {
+        margin-right: 10px; 
+    }
+}

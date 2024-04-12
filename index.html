@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- defines the structure of the main element and its child elements, including the navbar-->
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+            </div>
+        </div>
+        <div class="meme-generator">
+            <h2 class="logo">MemeGen</h2>
+         <!-- <h2>Generate Meme</h2> -->
+       <!-- <button class="generate-meme-btn">Generate Meme</button>-->
+            <img src="" alt="">
+            <div class="meme-author"></div>
+        </div>
+        <!--defines the structure of the "box" element, which contains an image and two buttons. The "img" element defines the source of the image, while the "Onclick" event for the "Previous" button calls the prevFun() function, and the "onclick" event for the "Next" button calls the nextFun() function.-->
+        <div class="box">
+            <img src="" alt="" id="img">
+            <div class="container">
+                <button class="btn" Onclick="prevFun()">Previous</button>
+                <button class="btn" onclick="nextFun()">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+    <footer class="footer-width">
+        <div class="row">
+        <div class="footer-info">
+            <div class="footer-width about">
+                <div class="footer-width column">
+                <h2>About</h2>
+                <p>MemeGen Where laughter knows no bounds! Embark on a journey through the vast realm of memes, where wit and humor collide. Immerse yourself in a world of creativity and humor. Discover trending memes & explore an ever-growing collection of memes by just clicking generate meme. Unleash the fun at MemeGen today!"</p></div>
+                <div class="social-media">
+                <div class="footer-width column">
+                    <h2>Social Media</h2>
+                    <ul>
+                    <li><i class="fa-brands fa-square-facebook"></i></li>
+                    <li><i class="fa-brands fa-square-instagram"></i></li>
+                    <li><i class="fa-brands fa-square-twitter"></i></li>
+                    <li><i class="fa-brands fa-square-pinterest"></i></li>
+                    </ul>
+             </div>
+             </div>
+            <div class="footer-width contact">
+                <div class="footer-width column">
+                <h2>Contact</h2>
+                <ul>
+                   <li>
+                    <span><i class="fa fa-map-marker-alt"></i></span>
+                    <p>Nairobi, Kenya</p>
+                   </li>
+                   <li>
+                    <span><i class="fa fa-phone-volume"></i></span>
+                    <p>+254 726851015</p>
+                   </li>
+                   <li>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <a href="#">memegen@gmail.com</a>
+                   </li>
+                </ul>
+
+
+            </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+   </body>
+</html>
+
