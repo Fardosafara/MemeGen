@@ -12,9 +12,12 @@
     background-color: #ffff00;
 }
 
+Body{
+    background-color: #ffff00;
+}
 
 .logo {
-    color: black;
+    color: white;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
